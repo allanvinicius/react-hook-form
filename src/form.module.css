@@ -1,0 +1,61 @@
+.contentForm {
+    background-color: #FFFF;
+    width: 35rem;
+    padding: 2.4rem;
+}
+
+.formGroup {
+    margin-bottom: 1.6rem;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup input[type="password"] {
+    width: 100%;
+    border: 1px solid gray;
+    height: 4.8rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.buttonSubmit {
+    width: 100%;
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.8rem;
+    background-color: #5b1fa6;
+    color: #FFFF;
+    transition: filter .3s ease;
+}
+
+.buttonSubmit:hover {
+    filter: brigthness(0.8);
+}
+
+.inputError {
+    border: 1px solid red !important;
+    transition: all .3s ease;
+}
+
+.inputError::placeholder {
+    color: red !important;
+}
+
+.textError {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: red;
+    transition: all .3s ease;
+}
+
+.textSuccess {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: green;
+    text-align: center;
+    transition: all .3s ease;
+}
